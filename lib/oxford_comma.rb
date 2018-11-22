@@ -1,6 +1,9 @@
 def oxford_comma(array)
-  last = array.pop
-  sentence = array.join(", ")
-  sentence << ", and #{last}"
-  return sentence
+  if array.length > 1 
+    last = array.pop
+    sentence = array.join(", ")
+    sentence << ", and #{last}"
+    return sentence
+  else 
+    return array.split
 end
