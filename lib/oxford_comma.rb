@@ -5,5 +5,5 @@ def oxford_comma(array)
     sentence << ", and #{last}"
     return sentence
   else 
-    return array.split
+    return array.join
 end
